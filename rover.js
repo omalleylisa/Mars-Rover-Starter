@@ -51,7 +51,7 @@ class Rover {
             },
           });
         } else {
-          console.error("Command type not recognized: ", command.commandType);
+          console.error("Command type not recognized:", command.commandType);
         }
       }
     }
